@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +13,33 @@
   width: 100%;
 }
 
+.topBar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px 60px;
+  font-size: 14px;
+}
+
+.topLinks a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.topLinks a:hover {
+  opacity: 1;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 60px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -20,4 +48,206 @@
 .logo img {
   height: 45px;
   margin-right: 12px;
+}
+
+.logoText h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logoText span {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.navLinks a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 16px;
+  position: relative;
+  transition: 0.3s;
+}
+
+.navLinks a i {
+  font-size: 12px;
+  margin-left: 6px;
+}
+
+.navLinks a:hover {
+  opacity: 0.7;
+}
+
+.search {
+  font-size: 18px;
+}
+
+.bookingSection {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0;
+}
+
+.bookingBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f2;
+  padding: 20px;
+  border-radius: 12px;
+  gap: 15px;
+  width: 75%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.bookingInfo {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 10px 14px;
+  border-radius: 8px;
+  gap: 8px;
+  flex: 0 0 auto;
+}
+
+.bookingInfo.location {
+  flex: 1;
+}
+
+.bookingInfo select,
+.bookingInfo input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background: transparent;
+  width: 100%;
+}
+
+.icon {
+  font-size: 16px;
+}
+
+.bookingButton {
+  background: #000000;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.bookingButton:hover {
+  background: #c62828;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.headerSearch input {
+  padding: 10px 16px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 250px;
+  font-size: 14px;
+}
+
+.signInButton {
+  background: white;
+  color: black;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signInButton:hover {
+  background: #ddd;
+}
+
+.restaurantSection {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  background: #f5f5f5;
+}
+
+.restaurantContainer {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.restaurants {
+  display: flex;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+.restaurantLink {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+}
+
+.restaurantContainer:hover {
+  transform: translateY(-3px);
+}
+
+.restaurantImage img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.restaurantInfo {
+  padding: 20px;
+  flex: 1;
+}
+
+.restaurantInfo h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.score {
+  font-weight: bold;
+}
+
+.stars {
+  color: green;
+  font-size: 14px;
+}
+
+.reviews {
+  color: #666;
+  font-size: 14px;
+}
+
+.category {
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #666;
+  font-size: 14px;
 }

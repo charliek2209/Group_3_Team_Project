@@ -3,16 +3,16 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<title>University Header</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <title>University Header</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <header class="header">
 
-  <div class="top-bar">
-    <div class="top-links">
+  <div class="topBar">
+    <div class="topLinks">
       <a href="#">1</a>
       <a href="#">2</a>
       <a href="#">3</a>
@@ -21,30 +21,124 @@
     </div>
   </div>
 
-  <div class="nav-wrapper">
+  <div class="nav">
 
-    <div class="logo">
-      <img src="logo.png" alt="Logo">
-      <div class="logo-text">
-        <h1>Name</h1>
-      </div>
+  <div class="logo">
+    <img src="logo.png" alt="Logo">
+    <div class="logoText">
+      <h1>Name</h1>
+    </div>
+  </div>
+
+  <div class="headerRight">
+
+    <div class="headerSearch">
+      <input type="text" placeholder="Location or Restaurant">
     </div>
 
-    <nav class="nav-links">
-      <a href="#"> <i class="fa-solid fa-chevron-down"></i></a>
-      <a href="#"> <i class="fa-solid fa-chevron-down"></i></a>
-      <a href="#"> <i class="fa-solid fa-chevron-down"></i></a>
-      <a href="#"> <i class="fa-solid fa-chevron-down"></i></a>
-      <a href="#"> <i class="fa-solid fa-chevron-down"></i></a>
-      <a href="#" class="search"><i class="fa-solid fa-magnifying-glass"></i></a>
-    </nav>
+    <button class="signInButton">Sign In</button>
+
   </div>
+
+</div>
+
 </header>
 
+<section class="bookingSection">
 
+  <div class="bookingBar">
 
+    <div class="bookingInfo">
+      <span class="icon">📆</span>
+      <select>
+        <option>24 Feb 2026</option>
+      </select>
+    </div>
+
+    <div class="bookingInfo">
+      <span class="icon">🕖</span>
+      <select>
+        <option>19:00</option>
+      </select>
+    </div>
+
+    <div class="bookingInfo">
+      <span class="icon">👤</span>
+      <select>
+        <option>1 person</option>
+        <option>2 people</option>
+        <option>3 people</option>
+        <option>4 people</option>
+        <option>5 people</option>
+        <option>6 people</option>
+        <option>7 people</option>
+      </select>
+    </div>
+
+    <button class="bookingButton">Find a table</button>
+
+  </div>
+
+</section>
+
+<section class="restaurantSection">
+
+  <div class="restaurantContainer">
+
+    <div class="restaurants">
+      
+      <a href="page1.html" class="restaurantLink">
+
+        <div class="restaurantImage">
+          <img src="image1" alt="Restaurant">
+        </div>
+
+        <div class="restaurantInfo">
+          <h2>Royal Oak</h2>
+
+          <div class="rating">
+            <span class="score">4.5</span>
+            <span class="stars">●●●●●</span>
+            <span class="reviews">(183 reviews)</span>
+          </div>
+
+          <p class="category">Bars & Pubs, British · £</p>
+
+          <p class="description">
+            “I'd just like to thank the staff today at the royal oak for my warm and...”
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <div class="restaurants">
+      
+      <a href="page2.html" class="restaurantLink">
+
+        <div class="restaurantImage">
+          <img src="image1" alt="Restaurant">
+        </div>
+
+        <div class="restaurantInfo">
+          <h2>Blue Eyed Panda</h2>
+
+          <div class="rating">
+            <span class="score">4.6</span>
+            <span class="stars">●●●●●</span>
+            <span class="reviews">(194 reviews)</span>
+          </div>
+
+          <p class="category">Chinese, Cantonese · £</p>
+
+          <p class="description">
+            “We got takeaway from here tonight. It was lovely. The whole family really...”
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+</section>
 
 </body>
-
-
 </html>

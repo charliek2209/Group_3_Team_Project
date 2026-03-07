@@ -251,3 +251,38 @@
   color: #666;
   font-size: 14px;
 }
+
+.locationSection {
+  padding: 40px 60px;
+}
+
+.locationSection h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.locationContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.map {
+  width: 350px;
+  height: 220px;
+  border: none;
+  border-radius: 12px;
+}
+
+.locationInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+}
+
+.locationArrow {
+  font-size: 22px;
+  color: #666;
+}

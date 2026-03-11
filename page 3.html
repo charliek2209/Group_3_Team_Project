@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>University Header</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+
+  <div class="nav">
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo">
+      <div class="logoText">
+        <h1>Name</h1>
+      </div>
+    </div>
+
+    <div class="headerSearch">
+      <span class="searchIcon">🔍</span>
+      <input type="text" placeholder="Location or Restaurant">
+    </div>
+
+    <div class="headerRight">
+      <a href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="signin.html"><button class="signInButton">Sign In</button></a>
+    </div>
+  </div>
+
+  <div class="subNav">
+    <a href="#">📍 Location</a>
+    <a href="homepage.html">Home</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+  </div>
+
+</header>
+
+<section class="aboutSection">
+  <h2>About</h2>
+  <p>short description</p>
+</section>
+
+<section class="locationSection">
+  <h2>Location</h2>
+  <div class="locationContainer">
+
+    <iframe
+      class="map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.9167689484398!2d-2.2392162229171566!3d53.46994756546766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1cf74cad61d%3A0xe0b829324786eaa6!2sChaiiwala!5e0!3m2!1sen!2suk!4v1773230113178!5m2!1sen!2suk"
+      allowfullscreen
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <div class="locationInfo">
+      <span class="locationIcon">📍</span>
+      <p>149 Oxford Rd, Manchester M1 7EE</p>
+      <span class="locationArrow"></span>
+    </div>
+  </div>
+
+  <div class="timeBox">
+    <div class="hoursHeader">
+      <h2>Hours</h2>
+    </div>
+    <table class="hoursTable">
+      <tr><td>Sunday</td><td>8:00 - 12:00</td></tr>
+      <tr><td>Monday</td><td>8:00 - 12:00</td></tr>
+      <tr><td>Tuesday</td><td>8:00 - 12:00</td></tr>
+      <tr><td>Wednesday</td><td>8:00 - 12:00</td></tr>
+      <tr class="today"><td><stong>Thursday</stong></td><td><stong>8:00 - 12:00</stong></td></tr>
+      <tr><td>Friday</td><td>8:00 - 12:00</td></tr>
+      <tr><td>Saturday</td><td>8:00 - 12:00</td></tr>
+    </table>
+
+  </div>
+</section>
+

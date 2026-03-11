@@ -11,38 +11,42 @@
 
 <header class="header">
 
-  <div class="topBar">
-    <div class="topLinks">
-      <a href="#">1</a>
-      <a href="#">2</a>
-      <a href="#">3</a>
-      <a href="#">4</a>
-      <a href="#">5</a>
-    </div>
-  </div>
-
   <div class="nav">
-
-  <div class="logo">
-    <img src="images/logo.png" alt="Logo">
-    <div class="logoText">
-      <h1>Name</h1>
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo">
+      <div class="logoText">
+        <h1>Name</h1>
+      </div>
     </div>
-  </div>
-
-  <div class="headerRight">
 
     <div class="headerSearch">
+      <span class="searchIcon">🔍</span>
       <input type="text" placeholder="Location or Restaurant">
     </div>
 
-    <button class="signInButton">Sign In</button>
-
+    <div class="headerRight">
+      <a href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="signin.html"><button class="signInButton">Sign In</button></a>
+    </div>
   </div>
 
-</div>
+  <div class="subNav">
+    <a href="#">📍 Location</a>
+    <a href="homepage.html">Home</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+  </div>
 
 </header>
+
+<section class="aboutSection">
+  <h2>About</h2>
+  <p>Short description</p>
+</section>
 
 <section class="locationSection">
   <h2>Location</h2>
@@ -59,8 +63,23 @@
     <div class="locationInfo">
       <span class="locationIcon">📍</span>
       <p>127A Oxford Rd, Manchester M1 7DY</p>
-      <span class="locationArrow">›</span>
+      <span class="locationArrow"></span>
     </div>
+  </div>
+
+  <div class="timeBox">
+    <div class="hoursHeader">
+      <h2>Hours</h2>
+    </div>
+    <table class="hoursTable">
+      <tr><td>Sunday</td><td>10:00 - 02:00</td></tr>
+      <tr><td>Monday</td><td>10:00 - 04:00</td></tr>
+      <tr><td>Tuesday</td><td>10:00 - 04:00</td></tr>
+      <tr><td>Wednesday</td><td>10:00 - 04:00</td></tr>
+      <tr class="today"><td><stong>Thursday</stong></td><td><stong>10:00 - 04:00</stong></td></tr>
+      <tr><td>Friday</td><td>10:00 - 05:00</td></tr>
+      <tr><td>Saturday</td><td>10:00 - 05:00</td></tr>
+    </table>
 
   </div>
 </section>
